@@ -9,6 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -31,6 +32,13 @@ public class Cliente implements Serializable{
 	/* Temporal-> Indica la transformacíon o el equivalente en la Base de Datos.*/
 	@Temporal(TemporalType.DATE)
 	private Date createAt;
+	
+	/* De forma automática cuando se cree un cliente, se creara con la fecha automática del día.  */
+	@PrePersist
+	public void prePersist() {
+		createAt = new Date();
+	}
+	
 	public Long getId() {
 		return id;
 	}
