@@ -1,0 +1,13 @@
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Andres','Guzman','plas@gmail.com','2019-05-25');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Pepe','Mariagr','pronq@gmail.com','2017-02-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('123','Mariagr','pronq@gmail.com','2017-02-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('zxz','fb','pronq@gmail.com','2017-02-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Peeterpe','ryuyweqt','pronq@gmail.com','2017-02-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Peptyuyte','Masfdsfdsriagr','pronq@gmail.com','2017-02-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('kjljk','Marzvbvcxvzxciagr','pronq@gmail.com','2017-02-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('zxz','fb','pronq@gmail.com','2017-02-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Peeterpe','ryuyweqt','pronq@gmail.com','2017-02-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Peptyuyte','Masfdsfdsriagr','pronq@gmail.com','2017-02-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('kjljk','Marzvbvcxvzxciagr','pronq@gmail.com','2017-02-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('zxz','fb','pronq@gmail.com','2017-02-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Peeterpe','ryuyweqt','pronq@gmail.com','2017-02-01');
